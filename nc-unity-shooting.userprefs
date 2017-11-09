@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GunScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TargetScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/TargetScript.cs" Line="12" Column="4" />
-      <File FileName="Assets/Scripts/GunScript.cs" Line="23" Column="3" />
+      <File FileName="Assets/Scripts/TargetScript.cs" Line="23" Column="41" />
+      <File FileName="Assets/Scripts/GunScript.cs" Line="32" Column="2" />
+      <File FileName="Assets/Scripts/AutoDieScript.cs" Line="18" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
