@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TargetScript : MonoBehaviour {
 	public float health = 50f;
+	public GameObject destroyEffect; 
 
 	public void TakeDamage (float amount) {
 		health -= amount;
@@ -14,6 +15,9 @@ public class TargetScript : MonoBehaviour {
 	}
 
 	void Die() {
+		GameObject destroyEffectGo = Instantiate (destroyEffect, transform.position, Quaternion.LookRotation(transform.position));
+		Destroy (destroyEffectGo, 2f);
+
 		Destroy (gameObject);
 	}
 
