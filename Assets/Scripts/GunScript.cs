@@ -7,14 +7,18 @@ public class GunScript : MonoBehaviour {
 	public float damage = 10f;
 	public float range = 10f;
 	public float impactForce = 30f;
-	public float fireRate = 15f;
+	public float fireRate = 0.0001f;
 
 	public Camera fpsCam;
 	public ParticleSystem muzzleFlash;
 	public GameObject impactEffect;
 
 	private float nextTimeToFire = 0f;
-	
+
+	// Use this for initialization
+	void Start () {
+	}
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButton ("Fire1") && Time.time >= nextTimeToFire) {
