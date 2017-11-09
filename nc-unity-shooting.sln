@@ -1,14 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nc-unity-shooting", "Assembly-CSharp-firstpass.csproj", "{EB531D4E-5ABA-10E9-30DF-78F9DBE0FFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nc-unity-shooting", "Assembly-CSharp.csproj", "{5D441BCA-F719-828E-4B15-E1C0A9701EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nc-unity-shooting", "Assembly-CSharp-Editor-firstpass.csproj", "{8C2DB7E1-005B-9C7C-A756-DE8B7345AC4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{EB531D4E-5ABA-10E9-30DF-78F9DBE0FFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB531D4E-5ABA-10E9-30DF-78F9DBE0FFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB531D4E-5ABA-10E9-30DF-78F9DBE0FFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB531D4E-5ABA-10E9-30DF-78F9DBE0FFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D441BCA-F719-828E-4B15-E1C0A9701EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D441BCA-F719-828E-4B15-E1C0A9701EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D441BCA-F719-828E-4B15-E1C0A9701EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D441BCA-F719-828E-4B15-E1C0A9701EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2DB7E1-005B-9C7C-A756-DE8B7345AC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2DB7E1-005B-9C7C-A756-DE8B7345AC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2DB7E1-005B-9C7C-A756-DE8B7345AC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2DB7E1-005B-9C7C-A756-DE8B7345AC4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
