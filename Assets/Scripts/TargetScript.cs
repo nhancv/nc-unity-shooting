@@ -9,6 +9,7 @@ public class TargetScript : MonoBehaviour {
 	private Vector3 spawn;
 
 	private Rigidbody rigidBody;
+	public AudioSource destroyAudio;
 
 	// Use this for initialization
 	void Start () {
@@ -35,6 +36,7 @@ public class TargetScript : MonoBehaviour {
 	void Die() {
 		GameObject destroyEffectGo = Instantiate (destroyEffect, transform.position, Quaternion.Euler(270, 0, 0));
 		Destroy (destroyEffectGo, 2f);
+		destroyAudio.Play ();
 
 		health = 50f;
 		rigidBody.velocity = new Vector3(0f,0f,0f); 

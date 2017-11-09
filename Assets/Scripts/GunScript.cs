@@ -12,6 +12,7 @@ public class GunScript : MonoBehaviour {
 	public Camera fpsCam;
 	public ParticleSystem muzzleFlash;
 	public GameObject impactEffect;
+	public AudioSource shootAudio;
 
 	private float nextTimeToFire = 0f;
 
@@ -29,6 +30,7 @@ public class GunScript : MonoBehaviour {
 
 	void Shoot () {
 	
+		shootAudio.Play ();
 		muzzleFlash.Play ();
 
 		RaycastHit hit;
